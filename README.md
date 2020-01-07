@@ -5,4 +5,6 @@ You can:
 - Edit and update skill
 - Delete skill
 
+![SkillsReactApp](img/skills.png)
+
 
