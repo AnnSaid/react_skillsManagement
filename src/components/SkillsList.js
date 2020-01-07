@@ -41,7 +41,7 @@ class SkillsList extends Component{
         let {isEdit} = this.state
         return (
             <Fragment> 
-                {/* fragment => to ignore the parent (insted of div) */}
+                {
                 {isEdit ? this.renderUpdateFrom(): this.renderSkill()}
             </Fragment>
           );
