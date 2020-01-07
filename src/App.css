@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 html{
-  background: #7b4397;  /* fallback for old browsers */
-  background: linear-gradient(to right, #19021d, #240731);
+  background: #FFF;  /* fallback for old browsers */
+  /* background: linear-gradient(to right, #19021d, #240731);
   background: -webkit-linear-gradient(to right, #19021d, #240731);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #19021d, #240731); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /*background: linear-gradient(to right, #19021d, #240731);*/ /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .App{
   padding:30px;
@@ -13,7 +13,7 @@ html{
   margin:auto;
 }
 .heading{
-  color: #b9dc20;
+  color: #3f4c9c;
   font-weight: 400;
   text-transform: uppercase;
   word-spacing: 3px;
@@ -25,15 +25,15 @@ html{
 }
 
 .inputskill{
-  border:none;
+  border:1px solid #3f4c9c;
   padding: 10px 12px;
   outline:0;
   border-radius: 8px;
   width: 84%;
 }
 .btn{
-  background-color: #b9dc20;
-  color: #38213e;
+  background-color: #3f4c9c;
+  color: #FFF;
   font-weight: 700;
   border: none;
   text-transform: uppercase;
@@ -46,17 +46,17 @@ html{
 }
 .current{
   margin-top: 40px;
-  background-color: #23022b;
+  background-color: #f3f3f3;
   padding: 20px;
   width: 100%;
   color: #FFF;
   font-weight: 700;
   border-radius: 5px;
-  border: 1px solid #b9dc20;
+  border: 1px solid #3f4c9c;
 }
 .currentp{
   font-style:italic;
-  color: #d6e0aa;
+  color: #3f4c9c;
   margin-bottom: 40px;
 }
 .skillList li{
@@ -88,4 +88,7 @@ html{
 .awsome{
   font-size:40px;
   margin-right: 10px;
+}
+.skillname{
+ color: #54545d;
 }
