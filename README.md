@@ -1,4 +1,4 @@
-React Simple Skills Management App
+Reactjs Simple "Skills Management App"
 You can:
 - Add skill
 - Edit and update skill
