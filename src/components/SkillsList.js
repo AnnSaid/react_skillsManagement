@@ -7,7 +7,7 @@ class SkillsList extends Component{
     }
     renderSkill = () =>{
         return(
-        <li>
+        <li class="skillname">
             <span>{this.props.x.name}</span>
             <button className="btn editbtn" onClick={() => {this.toggleState()}}>Edit</button>
             <button className="btn deletebtn" onClick={() => {this.props.del(this.props.index)}}>Delete</button>
