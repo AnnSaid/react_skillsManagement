@@ -8,7 +8,9 @@ Using the app, you can:
 ## The app includes two components:
 - Form component
 - Skills List component
-and it styled using CSS.
+
+### Simple CSS is used to style the app
+### Font awsome library is used
 
 ![SkillsReactApp](img/skills.png)
 
